@@ -6,4 +6,5 @@
 persistence_data <- read.csv(here::here("data", "processed", "persistence_data.csv"), sep = ";")
 
 # searcher efficiency
-efficiency <- read.csv
+# detected e not detected se referem as carcacas vistas de auto de linha em comparacao as encontradas a pe
+efficiency <- read.csv(here::here("data", "processed", "efficiency_data.csv"), sep = ";", h = T)
